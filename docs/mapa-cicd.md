@@ -108,3 +108,6 @@ Un renglón por riesgo. La columna "Paso" cita el paso de `DESPLIEGUE_MANUAL.md`
 - Pregunta 2: A quien se le avisa en caso de que la API funcione? es decir, quienes forman parte del canal general? 
 - Pregunta 3: Quienes tienen acceso root al servidor SSH? 
 - Pregunta 4: Que politicas existen en caso de aque la clave en texto plano se filtre? Que acciones se tomarian? 
+
+
+Se hace uso de IA para perfeccionar el formato del diagrama.
