@@ -11,3 +11,6 @@ reportes/
 
 # Reportes de cobertura en formato JSON
 *.json
+
+# Permitir datos JSON necesarios para las pruebas
+!tests/datos/tareas_ejemplo.json
