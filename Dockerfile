@@ -14,4 +14,4 @@ ENV APP_VERSION=${APP_VERSION}
 
 EXPOSE 8000
 
-CMD ["gunicorn", "--bind", "0.0.0.0:5000", "app:create_app()"]
+CMD ["gunicorn", "--bind", "0.0.0.0:8000", "app:create_app()"]
