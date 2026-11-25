@@ -95,7 +95,7 @@ jobs:
       - name: Desplegar contenedor
         env:
           IMAGEN: ${{ needs.empaquetar.outputs.imagen }}
-        run: docker run -d --name api -p 8080:8000 -e APP_ENV=staging "$IMAGEN"
+        run: docker run -d --name api -p 8080:5000 -e APP_ENV=staging "$IMAGEN"
       - name: Smoke test
         run: bash scripts/smoke.sh http://localhost:8080
 
@@ -114,6 +114,6 @@ jobs:
       - name: Desplegar contenedor
         env:
           IMAGEN: ${{ needs.empaquetar.outputs.imagen }}
-        run: docker run -d --name api -p 8080:5000 -e APP_ENV=produccion "$IMAGEN"
+        run: docker run -d --name api -p 8080:8000 -e APP_ENV=produccion "$IMAGEN"
       - name: Smoke test
         run: bash scripts/smoke.sh http://localhost:8080
