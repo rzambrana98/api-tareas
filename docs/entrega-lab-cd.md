@@ -42,4 +42,4 @@ La sección **Despliegue y rollback** del `README.md` tiene (marcar con `x` cuan
 
 ## 3. Uso de IA
 
-Se utilizó ChatGPT como herramienta de apoyo para la ejecución de comandos, resolución de errores, interpretación de resultados y documentación del laboratorio.
+Se hizo uso de IA como apoyo técnico y para mejorar la redacción del reporte final.
